@@ -1,6 +1,8 @@
 # DT173G, Moment 5 (Del 2)
 Detta repository innehåller koden för en webbaplikation som konsumerar [ett REST API](https://github.com/nlssn/dt173g_m5_1). Detta görs med hjälp av JavaScript och Fetch.
 
+En liveversion av applikationen finns tillgänlig på https://studenter.miun.se/~joni1307/DT173G/Moment5/Del2
+
 ## Användning
 För att arbeta med koden lokalt så måste du först klona detta repository och navigera in i mappen. Det kan du göra med följande kommandon:
 ```
