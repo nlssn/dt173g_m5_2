@@ -144,5 +144,5 @@ function displayMessage(text) {
    message.className = 'visible';
    setTimeout(() => {
       message.className = 'hidden';
-   }, 3000);
+   }, 5000);
 }
