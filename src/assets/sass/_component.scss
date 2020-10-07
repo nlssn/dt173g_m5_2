@@ -1,0 +1,56 @@
+button,
+.btn {
+   background-color: $main;
+   border: 2px solid $main;
+   color: $white;
+   padding: .75em 1.75em;
+   border-radius: 2em;
+   display: inline-block;
+   cursor: pointer;
+   margin: 1em 0 ;
+   font-weight: 700;
+}
+
+button:hover,
+.btn:hover {
+   background-color: transparent;
+   color: $main;
+   transition: all ease-in-out .3s;
+}
+
+table {
+   margin: 3em 0;
+   border-collapse: collapse;
+}
+
+th {
+   text-align: left;
+}
+
+thead {
+   border-bottom: 2px solid $gray;
+}
+
+tr {
+   border-bottom: 1px solid $gray;
+}
+
+th, td {
+   padding: 0.25em 1em;
+}
+
+tr:hover {
+   background-color: $gray;
+}
+
+label {
+   margin: .5em 0 .25em 0;
+   display: inline-block;
+}
+
+input[type="text"],
+input[type="url"],
+select {
+   width: 100%;
+   padding: 10px;
+}

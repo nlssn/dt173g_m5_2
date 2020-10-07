@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Moment 5</title>
+   <link rel="stylesheet" href="assets/css/global.min.css">
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+   <div class="container">
+         <h1>Moment 5</h1>
+         <div id="message" class="hidden"></div>
+         <table style="width:100%" id="courses">
+         </table>
+         <div class="form-wrap">
+            <h2>Lägg till kurs</h2>
+            <form id="course-form">
+               <label for="code">Kurskod</label>
+               <input type="text" name="code" id="code"><br>
+               <label for="name">Kursnamn</label>
+               <input type="text" name="name" id="name"><br>
+               <label for="progression">Progression</label>
+               <select name="progression" id="progression">
+                  <option value="A">A</option>
+                  <option value="B">B</option>
+                  <option value="C">C</option>
+               </select><br>
+               <label for="syllabus">Kursplan (länk)</label>
+               <input type="url" name="syllabus" id="syllabus"><br>
+               <input class="btn" type="submit" value="Lägg till" id="addCourse">
+            </form>
+         </div> <!-- /.form-wrap -->
+   </div> <!-- /.container-->
+   <script src="assets/js/global.min.js"></script>
+</body>
+</html>
