@@ -20,26 +20,9 @@ button:hover,
 
 table {
    margin: 3em 0;
-   border-collapse: collapse;
 }
 
-th {
-   text-align: left;
-}
-
-thead {
-   border-bottom: 2px solid $gray;
-}
-
-tr {
-   border-bottom: 1px solid $gray;
-}
-
-th, td {
-   padding: 0.25em 1em;
-}
-
-tr:hover {
+tr:nth-child(even) {
    background-color: $gray;
 }
 
